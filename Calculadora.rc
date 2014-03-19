@@ -1,0 +1,230 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Español (España) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 10, 3\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Calculadora.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.esp\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Calculadora.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "res\\default1.bin"
+#endif    // Español (España) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Español resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CALCULADORA_DIALOG DIALOGEX 0, 0, 276, 114
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Calculadora"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "1",IDC_1,7,34,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "2",IDC_2,47,34,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "3",IDC_3,93,34,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "4",IDC_4,7,55,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "5",IDC_5,47,55,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "6",IDC_6,93,55,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "7",IDC_7,7,74,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "8",IDC_8,47,74,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "9",IDC_9,93,74,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "0",IDC_0,47,93,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "C",IDC_C,135,7,20,14,NOT WS_TABSTOP
+    EDITTEXT        IDC_NUMERO,7,7,121,14,ES_RIGHT | ES_AUTOHSCROLL | ES_READONLY | WS_DISABLED | NOT WS_TABSTOP
+    PUSHBUTTON      ".",IDC_PUNTO,7,93,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "+",IDC_SUMA,155,35,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "-",IDC_RESTA,155,52,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "*",IDC_MULT,155,72,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "/",IDC_DIV,155,92,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "=",IDC_IGUAL,93,93,35,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Raiz",IDC_RAIZ,185,35,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "x^y",IDC_XY,185,53,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "x^3",IDC_X3,185,72,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "x^2",IDC_X2,185,93,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "sen",IDC_SEN,215,35,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "cos",IDC_COS,215,53,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "tan",IDC_TAN,215,72,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "1/x",IDC_1_X,215,93,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "pi",IDC_PI,244,35,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "ln",IDC_LN,244,53,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "log",IDC_LOG,244,73,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "n!",IDC_NFACT,244,93,25,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Retroceso",IDC_RETRO,159,7,40,14,NOT WS_TABSTOP
+    PUSHBUTTON      "Salir",IDC_SALIR,238,7,31,14,NOT WS_TABSTOP
+    PUSHBUTTON      "About",IDC_ABOUT,203,7,31,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "0C0A04B0"
+        BEGIN
+            VALUE "FileDescription", "Aplicación MFC Calculadora"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Calculadora"
+            VALUE "LegalCopyright", "Copyright (C) 2007"
+            VALUE "OriginalFilename", "Calculadora.EXE"
+            VALUE "ProductName", "Aplicación Calculadora"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0xc0a, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CALCULADORA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 269
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 107
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&Acerca de Calculadora..."
+END
+
+#endif    // Español resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESP)
+#ifdef _WIN32
+LANGUAGE 10, 3
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Calculadora.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.esp\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
